@@ -1,0 +1,4 @@
+steps\WebDriverManager.class
+steps\AcademyCourses.class
+runner\TestRunner.class
+report\CucumberReport.class

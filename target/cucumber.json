@@ -1,0 +1,129 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-01-10T14:47:05.049Z",
+        "line": 3,
+        "name": "Verify that the page header matches the title of the course on the Academy page",
+        "description": "",
+        "id": "academy-tab;verify-that-the-page-header-matches-the-title-of-the-course-on-the-academy-page",
+        "after": [
+          {
+            "result": {
+              "duration": 186925500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AcademyCourses.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1744222400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the Cloudwise website",
+            "match": {
+              "location": "steps.AcademyCourses.iNavigateToTheCloudwiseWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7217040200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go to the Academy tab",
+            "match": {
+              "location": "steps.AcademyCourses.iGoToTheAcademyTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72477602500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify that the page header matches the title of the course on the Academy page",
+            "match": {
+              "location": "steps.AcademyCourses.iCheckThatThePageHeaderMatches()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-01-10T14:48:26.725Z",
+        "line": 8,
+        "name": "Print total number of courses grouped by category",
+        "description": "",
+        "id": "academy-tab;print-total-number-of-courses-grouped-by-category",
+        "after": [
+          {
+            "result": {
+              "duration": 182541400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AcademyCourses.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8786366300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am at the Cloudwise website",
+            "match": {
+              "location": "steps.AcademyCourses.iNavigateToTheCloudwiseWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7904848200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I go to the Academy tab",
+            "match": {
+              "location": "steps.AcademyCourses.iGoToTheAcademyTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 789512600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I print the total number of courses grouped by category",
+            "match": {
+              "location": "steps.AcademyCourses.iPrintTotalNumberOfCoursesGroupedByCategory()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Academy tab",
+    "description": "",
+    "id": "academy-tab",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/academy.feature",
+    "tags": []
+  }
+]
